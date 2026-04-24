@@ -87,16 +87,16 @@ features:
 
 showcase:
   - tag: "Organize"
-    title: ["Folders become", "a map of your attention."]
-    body: "\"Cooking,\" \"Interior ideas,\" \"Films to rewatch.\" The folder names you pick describe what you care about. Add videos, and the map sharpens."
+    title: ["Folders you", "actually open."]
+    body: "\"Cooking,\" \"Interior ideas,\" \"Films to rewatch.\" Name them however makes sense. Drop videos in. Never lose track of that one clip again."
     bullets:
       - "Nest and reorder freely"
       - "Tag videos with multiple labels"
       - "Icons and colors at a glance"
     img: organize
   - tag: "Annotate"
-    title: ["Notes are letters", "to your future self."]
-    body: "Most videos you save come back unreadable — you forgot why. VideoClip keeps a small note next to each one, so it's still useful later."
+    title: ["One note per video.", "That's it."]
+    body: "You saved it for a reason. Write it down next to the video, in one line or ten. Markdown works. No more \"why did I bookmark this?\""
     bullets:
       - "Write in Markdown"
       - "One note per video, tightly bound"

@@ -7,26 +7,26 @@ meta:
   description: "Guarda y organiza vídeos de YouTube e Instagram con carpetas y notas. Sin anuncios, sin seguimiento, todo se queda en tu iPhone."
 
 nav:
-  features: "Features"
-  pricing: "Pricing"
-  support: "Support"
+  features: "Funciones"
+  pricing: "Precios"
+  support: "Soporte"
   cta: "Avísame"
 
 footer:
   tagline_line1: "Un lugar tranquilo"
   tagline_line2: "para lo que quieres recordar."
-  product: "Product"
-  features: "Features"
-  pricing: "Pricing"
-  download: "Download"
+  product: "Producto"
+  features: "Funciones"
+  pricing: "Precios"
+  download: "Descargar"
   legal: "Legal"
   privacy: "Privacidad"
   terms: "Términos (EULA)"
-  contact: "Contact"
+  contact: "Contacto"
   email_label: "Contacto"
   support: "Soporte"
   copy: "VideoClip — Hecho por un desarrollador independiente."
-  made: "Made with care in Japan."
+  made: "Hecho con cariño en Japón."
 
 hero:
   eyebrow: "iOS App · Próximamente"
@@ -74,7 +74,7 @@ features:
     body: "Por qué lo guardaste, qué te gustó. Notas pequeñas con soporte Markdown, justo al lado del vídeo."
   - num: "03 — Private"
     title: ["Todo se queda", "en tu dispositivo"]
-    body: "No se envía nada a nuestros servidores. Sin IDs de publicidad, sin SDKs de seguimiento. Puedes bloquear carpetas con Face ID."
+    body: "No se envía nada a nuestros servidores. Sin IDs de publicidad, sin rastreadores. Puedes bloquear carpetas con Face ID."
   - num: "04 — Share"
     title: ["Guarda desde cualquier app,", "con un solo toque"]
     body: "Elige VideoClip en el menú compartir de Safari, Instagram o YouTube. Y ya."
@@ -127,7 +127,7 @@ pricing_head:
   sub: "Lo básico es gratis para siempre. Actualiza cuando necesites más."
 
 plans:
-  - name: "Free"
+  - name: "Gratis"
     price: "€0"
     unit: ""
     note: "Lo básico, gratis para siempre."
@@ -136,7 +136,7 @@ plans:
       - "Importar desde el menú compartir"
       - "Bloqueo con Face ID"
     featured: false
-  - name: "Yearly Premium"
+  - name: "Premium anual"
     price: "€29,99"
     unit: "/año"
     note: "Unos €2,50/mes."
@@ -146,13 +146,13 @@ plans:
       - "Carpetas privadas"
       - "Nuevas funciones Premium"
     featured: true
-    badge: "Most popular"
-  - name: "Lifetime"
+    badge: "Más popular"
+  - name: "De por vida"
     price: "€59,99"
     unit: "/pago único"
     note: "Incluye futuras actualizaciones."
     items:
-      - "Todo lo de Yearly"
+      - "Todo lo del plan anual"
       - "Nuevas funciones incluidas"
       - "Sin suscripción"
     featured: false
@@ -163,7 +163,7 @@ faq:
   - q: "¿VideoClip guarda los vídeos en sí?"
     a: "No. VideoClip guarda la URL de YouTube, Instagram, etc. Al reproducir, tu dispositivo habla directamente con la plataforma que los aloja. No tocamos el archivo de vídeo."
   - q: "¿Hay anuncios o seguimiento?"
-    a: "Ninguno. Sin AdMob, sin Firebase Analytics, sin SDKs de seguimiento. Tampoco leemos tu IDFA."
+    a: "Ninguno. Sin AdMob, sin Firebase Analytics, sin rastreadores. Tampoco leemos tu IDFA."
   - q: "¿Tengo que usar los resúmenes con IA?"
     a: "No. Solo se activan si pones tu propia API key de Google Gemini. Sin clave, no se hace ninguna conexión."
   - q: "¿Se puede cancelar la suscripción?"
