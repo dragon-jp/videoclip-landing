@@ -44,12 +44,12 @@ marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
 
 manifesto:
   eyebrow: "Philosophy"
-  quote_a: "動画を"
-  quote_em1: "集める"
-  quote_b: "のではなく、"
-  quote_c: "あとで"
-  quote_em2: "考える"
-  quote_d: "ために残す。"
+  quote_a: "集めるだけで"
+  quote_em1: "終わらせない。"
+  quote_b: ""
+  quote_c: "あとで、"
+  quote_em2: "ちゃんと効く"
+  quote_d: "場所に残す。"
   author: "VideoClip が大事にしていること"
 
 stats:
@@ -132,7 +132,7 @@ showcase:
     title:
       - "端末の中だけで、"
       - "完結する。"
-    body: "保存した URL、書いたメモ、並びの癖。どれも端末の外に出ません。自社サーバーもなし、広告 ID も取りません。「何を見てるか」を見張られる必要はありません。"
+    body: "保存した URL、書いたメモ、並びの癖。どれも端末の中だけに留まります。自社サーバーもなし、広告 ID も取りません。何を見ているか、あなたの中だけの話。"
     bullets:
       - "自社サーバーへの送信ゼロ"
       - "Face ID でプライベートフォルダを保護"
@@ -170,7 +170,7 @@ plans:
   - name: "Lifetime"
     price: "¥9,800"
     unit: "/一回のみ"
-    note: "アップデートもずっと込み。"
+    note: "2 年以上使うならこちらが得。"
     items:
       - "Yearly の全機能"
       - "今後の新機能も含む"
