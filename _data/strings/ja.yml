@@ -3,18 +3,18 @@ html_lang: ja
 dir: ltr
 
 meta:
-  title: "VideoClip — 見たい動画を、忘れない場所へ"
-  description: "YouTube や Instagram の動画をフォルダで整理し、メモと一緒に保存できる iOS アプリ。広告なし、追跡なし、端末内完結。"
+  title: "VideoClip — 保存した動画を、ちゃんと見返せる"
+  description: "YouTube や Instagram の動画をフォルダとメモで整理できる iOS アプリ。広告なし、追跡なし、端末内で完結。"
 
 nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "リリース通知"
+  cta: "リリース通知を受け取る"
 
 footer:
-  tagline_line1: "見たい動画を、"
-  tagline_line2: "忘れない場所へ。"
+  tagline_line1: "保存した動画を、"
+  tagline_line2: "ちゃんと見返せる。"
   product: "Product"
   features: "Features"
   pricing: "Pricing"
@@ -195,5 +195,5 @@ cta:
   title:
     - "あなたの「あとで観る」に、"
     - "落ち着く場所を。"
-  sub: "審査通過後、メールでお知らせします。配信予定は数日以内。"
+  sub: "審査通過後、メールで一度だけご連絡します。配信予定は数日以内。配信以外には使いません。"
   button: "リリース通知を受け取る"

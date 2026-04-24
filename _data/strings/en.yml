@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "Notify me"
+  cta: "Notify me at launch"
 
 footer:
   tagline_line1: "A quieter home for"
@@ -29,7 +29,7 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · Arriving soon"
+  eyebrow: "iOS App · Launching this spring"
   title:
     - "Save the video."
     - "Think about it later."
@@ -43,14 +43,14 @@ hero:
 marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
 
 manifesto:
-  eyebrow: "Philosophy"
-  quote_a: "Don't"
-  quote_em1: "collect"
-  quote_b: "videos."
-  quote_c: "Keep them so"
-  quote_em2: "you can think"
-  quote_d: "about them later."
-  author: "What VideoClip stands for."
+  eyebrow: "Why it exists"
+  quote_a: "Saved videos"
+  quote_em1: "shouldn't"
+  quote_b: ""
+  quote_c: "disappear"
+  quote_em2: "into a feed."
+  quote_d: ""
+  author: "That's the whole idea."
 
 stats:
   - { num: 0,   unit: "", label: "Ads shown" }
@@ -175,5 +175,5 @@ cta:
   title:
     - "Give your \"watch later\""
     - "a quieter home."
-  sub: "Leave your email. We'll tell you the moment it ships."
+  sub: "Leave your email. One message, the day it ships. Never used for anything else."
   button: "Notify me at launch"
