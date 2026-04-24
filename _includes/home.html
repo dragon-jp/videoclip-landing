@@ -63,7 +63,7 @@
   <div class="container stats-grid">
     {%- for s in t.stats -%}
     <div class="stat" data-animate data-animate-delay="{{ forloop.index0 }}">
-      <p class="stat-num"><span data-count="{{ s.num }}">0</span>{%- if s.unit != "" %}<span class="unit">{{ s.unit }}</span>{%- endif %}</p>
+      <p class="stat-num"><span data-count="{{ s.num }}">{{ s.num }}</span>{%- if s.unit != "" %}<span class="unit">{{ s.unit }}</span>{%- endif %}</p>
       <p class="stat-label">{{ s.label }}</p>
     </div>
     {%- endfor -%}
@@ -167,7 +167,7 @@
     </h2>
     <p data-animate data-animate-delay="1">{{ t.cta.sub }}</p>
     <div data-animate data-animate-delay="2">
-      <a href="#" class="btn btn-primary">
+      <a href="mailto:alaofficial.jp@gmail.com?subject=VideoClip%20Launch%20Notify" class="btn btn-primary">
         {{ t.cta.button }}
         <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>

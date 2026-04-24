@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "App Store에서 받기"
+  cta: "출시 알림"
 
 footer:
   tagline_line1: "다시 보고 싶은 영상이"
@@ -36,7 +36,7 @@ hero:
   sub:
     - "YouTube와 Instagram에서 마음에 든 영상을"
     - "폴더와 메모로 정리하는 조용한 도구."
-  cta_primary: "App Store에서 받기"
+  cta_primary: "출시 알림 받기"
   cta_secondary: "자세히 보기"
   meta: "광고 없음 · 추적 없음 · 기기 내에서 완결"
 
@@ -50,7 +50,7 @@ manifesto:
   quote_c: "나중에"
   quote_em2: "생각하기"
   quote_d: "위해 남긴다."
-  author: "VideoClip이 소중히 여기는 것."
+  author: "우리가 지키고 싶은 것."
 
 stats:
   - { num: 0,   unit: "건", label: "표시되는 광고" }
@@ -74,13 +74,13 @@ features:
     body: "왜 저장했는지, 어디가 좋았는지. Markdown 그대로 쓸 수 있는 작은 노트."
   - num: "03 — Private"
     title: ["모든 것이", "기기 안에서 끝난다"]
-    body: "자사 서버 전송 없음, 광고 ID 수집 없음, 추적 SDK 없음. Face ID 잠금도 지원."
+    body: "제 서버 전송 없음, 광고 ID 수집 없음, 추적 SDK 없음. Face ID 잠금도 지원."
   - num: "04 — Share"
     title: ["공유 시트에서", "한 번에 저장"]
     body: "Safari, Instagram, YouTube의 공유 메뉴에서 VideoClip을 고르기만 하면 됩니다."
   - num: "05 — Search"
     title: ["제목도 메모도,", "한 번에 검색"]
-    body: "떠오른 한 단어로 폴더를 넘어 찾을 수 있습니다."
+    body: "떠오른 한 단어로 폴더 상관없이 찾을 수 있습니다."
   - num: "06 — AI"
     title: ["필요할 때만,", "AI 요약"]
     body: "직접 준비한 Gemini API 키를 등록하면 요약을 생성할 수 있습니다. 설정하지 않으면 통신 없음."
@@ -108,13 +108,13 @@ showcase:
     bullets:
       - "제목·메모·태그를 한 번에 검색"
       - "최근 본 순으로 정렬"
-      - "폴더를 넘어 결과 표시"
+      - "폴더 상관없이 결과 표시"
     img: find
   - tag: "Private by default"
     title: ["당신의 관심은,", "오직 당신의 것."]
-    body: "저장한 URL도, 작성한 메모도, 정렬의 습관도, 기기 밖으로 나가지 않습니다. 자사 서버도 없고 광고 ID도 수집하지 않습니다."
+    body: "저장한 URL도, 작성한 메모도, 정렬의 습관도, 기기 밖으로 나가지 않습니다. 제 서버도 없고 광고 ID도 수집하지 않습니다."
     bullets:
-      - "자사 서버로 가는 트래픽 제로"
+      - "제 서버로 가는 트래픽 제로"
       - "Face ID로 프라이빗 폴더 보호"
       - "광고·분석 SDK, IDFA 모두 미사용"
     img: private
@@ -175,5 +175,5 @@ cta:
   title:
     - "당신의 \"나중에 볼 영상\"이"
     - "조용히 머물 곳을."
-  sub: "무료로 시작하세요. 필요해지면 Premium으로."
-  button: "App Store에서 받기"
+  sub: "심사 통과 즉시 이메일로 알려드려요."
+  button: "출시 알림 받기"

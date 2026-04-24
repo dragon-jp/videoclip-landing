@@ -3,18 +3,18 @@ html_lang: zh-Hant
 dir: ltr
 
 meta:
-  title: "VideoClip — 讓想看的影片有個不會忘的地方"
-  description: "把 YouTube 與 Instagram 的影片用資料夾和筆記整理起來的 iOS 應用。零廣告、零追蹤、資料留在裝置內。"
+  title: "VideoClip — 把想看的影片,好好收著"
+  description: "把 YouTube 與 Instagram 的影片用資料夾和筆記整理起來的 iOS 應用。零廣告、零追蹤、一切留在裝置內。"
 
 nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "在 App Store 取得"
+  cta: "上架時通知我"
 
 footer:
-  tagline_line1: "讓想看的影片"
-  tagline_line2: "有個不會忘的地方。"
+  tagline_line1: "把想看的影片,"
+  tagline_line2: "好好收著。"
   product: "Product"
   features: "Features"
   pricing: "Pricing"
@@ -29,28 +29,28 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · 即將推出"
+  eyebrow: "iOS App · 即將上架"
   title:
-    - "讓想看的影片"
-    - "有個不會忘的地方。"
+    - "把想看的影片,"
+    - "好好收著。"
   sub:
-    - "把在 YouTube、Instagram 上感興趣的影片,"
-    - "用資料夾和筆記整理好的一個安靜工具。"
-  cta_primary: "在 App Store 取得"
+    - "在 YouTube、Instagram 看到想留的影片,"
+    - "用資料夾和筆記收好,不會再被動態淹沒。"
+  cta_primary: "上架時通知我"
   cta_secondary: "看看特色"
-  meta: "零廣告 · 零追蹤 · 資料留在裝置"
+  meta: "零廣告 · 零追蹤 · 一切留在裝置內"
 
-marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+marquee: ["收藏", "整理", "寫下", "回想", "再找", "再看"]
 
 manifesto:
   eyebrow: "Philosophy"
-  quote_a: "不是為了"
-  quote_em1: "收集"
-  quote_b: "影片,"
-  quote_c: "而是為了日後"
-  quote_em2: "能好好思考"
-  quote_d: "而留下。"
-  author: "VideoClip 所珍視的事。"
+  quote_a: "影片留下來,"
+  quote_em1: "不是為了堆積,"
+  quote_b: ""
+  quote_c: "而是之後"
+  quote_em2: "還能再想一想。"
+  quote_d: ""
+  author: "我們想守住的事。"
 
 stats:
   - { num: 0,   unit: "則", label: "廣告展示" }
@@ -175,5 +175,5 @@ cta:
   title:
     - "讓你的「之後再看」"
     - "有個安靜的落腳處。"
-  sub: "免費起步,需要時再升級 Premium。"
-  button: "在 App Store 取得"
+  sub: "通過審核後,會用 email 告訴你。"
+  button: "上架時通知我"

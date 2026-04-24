@@ -59,6 +59,7 @@
           const duration = 1400;
           const start = performance.now();
           const from = 0;
+          el.textContent = '0';
           const tick = (now) => {
             const t = Math.min((now - start) / duration, 1);
             const eased = 1 - Math.pow(1 - t, 3);

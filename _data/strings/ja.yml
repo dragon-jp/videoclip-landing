@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "App Store で入手"
+  cta: "リリース通知"
 
 footer:
   tagline_line1: "見たい動画を、"
@@ -36,7 +36,7 @@ hero:
   sub:
     - "YouTube や Instagram で気になった動画を、"
     - "フォルダとメモで整理する、静かな道具。"
-  cta_primary: "App Store で入手"
+  cta_primary: "リリース通知を受け取る"
   cta_secondary: "特長を見る"
   meta: "広告なし · 追跡なし · 端末内で完結"
 
@@ -110,9 +110,9 @@ showcase:
     img: organize
   - tag: "Annotate"
     title:
-      - "メモは、"
-      - "未来の自分への手紙。"
-    body: "あとで見返したとき、なぜ保存したかを思い出せる動画は多くありません。VideoClip は、動画の隣に小さなノートを置きます。読み返したときに、ちゃんと役に立つように。"
+      - "動画の隣に、"
+      - "小さなメモを置く。"
+    body: "あとで見返しても、なぜ保存したか思い出せないことは多いもの。VideoClip では動画ごとにノートを 1 枚書けます。読み返したときに、ちゃんと役に立ちます。"
     bullets:
       - "Markdown 記法でそのまま書ける"
       - "動画と 1:1 で紐づくミニノート"
@@ -195,5 +195,5 @@ cta:
   title:
     - "あなたの「あとで観る」に、"
     - "落ち着く場所を。"
-  sub: "無料で始められます。必要になったら Premium に。"
-  button: "App Store で入手"
+  sub: "審査通過後、メールでお知らせします。配信予定は数日以内。"
+  button: "リリース通知を受け取る"

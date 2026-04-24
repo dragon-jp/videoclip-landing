@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "Conseguir en App Store"
+  cta: "Avísame"
 
 footer:
   tagline_line1: "Un lugar tranquilo"
@@ -36,11 +36,11 @@ hero:
   sub:
     - "Organiza los vídeos que te llamaron la atención"
     - "en YouTube o Instagram con carpetas y notas."
-  cta_primary: "Conseguir en App Store"
+  cta_primary: "Avísame al salir"
   cta_secondary: "Ver detalles"
   meta: "Sin anuncios · Sin seguimiento · Todo en el dispositivo"
 
-marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+marquee: ["Guarda", "Ordena", "Anota", "Piensa", "Vuelve", "Revísalo"]
 
 manifesto:
   eyebrow: "Philosophy"
@@ -54,7 +54,7 @@ manifesto:
 
 stats:
   - { num: 0,   unit: "", label: "anuncios mostrados" }
-  - { num: 0,   unit: "", label: "SDKs de seguimiento" }
+  - { num: 0,   unit: "", label: "rastreadores" }
   - { num: 100, unit: "%", label: "en el dispositivo" }
   - { num: 1,   unit: "", label: "desarrollador independiente" }
 
@@ -116,7 +116,7 @@ showcase:
     bullets:
       - "Cero tráfico a servidores nuestros"
       - "Face ID para carpetas privadas"
-      - "Sin SDKs de anuncios, analítica ni IDFA"
+      - "Sin rastreadores de anuncios, analítica ni IDFA"
     img: private
 
 pricing_head:
@@ -175,5 +175,5 @@ cta:
   title:
     - "Dale a tu \"ver más tarde\""
     - "un lugar tranquilo."
-  sub: "Empieza gratis. Actualiza si necesitas más."
-  button: "Conseguir en App Store"
+  sub: "Te avisamos por email en cuanto apruebe la revisión."
+  button: "Avísame al salir"
