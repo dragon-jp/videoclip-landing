@@ -1,0 +1,179 @@
+locale: zh
+html_lang: zh-Hant
+dir: ltr
+
+meta:
+  title: "VideoClip — 讓想看的影片有個不會忘的地方"
+  description: "把 YouTube 與 Instagram 的影片用資料夾和筆記整理起來的 iOS 應用。零廣告、零追蹤、資料留在裝置內。"
+
+nav:
+  features: "Features"
+  pricing: "Pricing"
+  support: "Support"
+  cta: "在 App Store 取得"
+
+footer:
+  tagline_line1: "讓想看的影片"
+  tagline_line2: "有個不會忘的地方。"
+  product: "Product"
+  features: "Features"
+  pricing: "Pricing"
+  download: "Download"
+  legal: "Legal"
+  privacy: "隱私權政策"
+  terms: "使用條款 (EULA)"
+  contact: "Contact"
+  email_label: "聯絡"
+  support: "支援"
+  copy: "VideoClip — 由獨立開發者打造。"
+  made: "Made with care in Japan."
+
+hero:
+  eyebrow: "iOS App · 即將推出"
+  title:
+    - "讓想看的影片"
+    - "有個不會忘的地方。"
+  sub:
+    - "把在 YouTube、Instagram 上感興趣的影片,"
+    - "用資料夾和筆記整理好的一個安靜工具。"
+  cta_primary: "在 App Store 取得"
+  cta_secondary: "看看特色"
+  meta: "零廣告 · 零追蹤 · 資料留在裝置"
+
+marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+
+manifesto:
+  eyebrow: "Philosophy"
+  quote_a: "不是為了"
+  quote_em1: "收集"
+  quote_b: "影片,"
+  quote_c: "而是為了日後"
+  quote_em2: "能好好思考"
+  quote_d: "而留下。"
+  author: "VideoClip 所珍視的事。"
+
+stats:
+  - { num: 0,   unit: "則", label: "廣告展示" }
+  - { num: 0,   unit: "種", label: "追蹤 SDK" }
+  - { num: 100, unit: "%", label: "裝置內完結" }
+  - { num: 1,   unit: "人", label: "獨立開發者手作" }
+
+features_head:
+  eyebrow: "Features"
+  title:
+    - "只留下需要的。"
+    - "多餘的,不放。"
+  sub: "沒有通知、沒有推薦、沒有廣告。這裡只屬於你想回看的影片,以及你的思考。"
+
+features:
+  - num: "01 — Organize"
+    title: ["用資料夾,", "照意義分類"]
+    body: "主題、心情、專案。排序、巢狀都自由。把一堆影片變成可以翻閱的架子。"
+  - num: "02 — Think"
+    title: ["用筆記,", "留下觀看的理由"]
+    body: "為什麼要存?哪裡打動你?支援 Markdown 的小筆記功能。"
+  - num: "03 — Private"
+    title: ["一切,", "都在裝置內完結"]
+    body: "不傳送到自家伺服器、不取廣告 ID、不用追蹤 SDK。也能用 Face ID 上鎖。"
+  - num: "04 — Share"
+    title: ["從分享選單,", "一鍵保存"]
+    body: "在 Safari、Instagram、YouTube 的分享選單裡選 VideoClip 就好。"
+  - num: "05 — Search"
+    title: ["標題、筆記,", "一起搜尋"]
+    body: "記得一個關鍵字,就能跨越資料夾找到它。"
+  - num: "06 — AI"
+    title: ["必要時再用,", "AI 摘要"]
+    body: "填入自己準備的 Gemini API 金鑰,就能產生摘要。不填,就完全不會通訊。"
+
+showcase:
+  - tag: "Organize"
+    title: ["資料夾,", "就是你思考的地圖。"]
+    body: "\"料理\"、\"室內設計靈感\"、\"想再看一次的電影\"。資料夾的名字,記錄了你在乎什麼。影片越放,地圖越清楚。"
+    bullets:
+      - "資料夾巢狀、排序自由"
+      - "一部影片可加多個標籤"
+      - "圖示與顏色一眼分辨"
+    img: organize
+  - tag: "Annotate"
+    title: ["筆記,", "是寫給未來的自己。"]
+    body: "很多存下的影片,之後再看卻想不起為什麼存。VideoClip 在每部影片旁邊放一張小筆記,日後翻閱時還能派上用場。"
+    bullets:
+      - "支援 Markdown 書寫"
+      - "一支影片對應一則筆記"
+      - "筆記內文也會被搜尋到"
+    img: annotate
+  - tag: "Find"
+    title: ["隨時,", "一個字就能回來。"]
+    body: "資料夾再多、筆記再厚,搜尋一次到位。\"那支義大利菜的影片\" — 這一句就夠了。"
+    bullets:
+      - "同時搜尋標題、筆記、標籤"
+      - "最近看過的優先排序"
+      - "跨資料夾顯示結果"
+    img: find
+  - tag: "Private by default"
+    title: ["你關心什麼,", "是你自己的事。"]
+    body: "存下的 URL、寫下的筆記、整理的習慣,都不會離開這支裝置。沒有伺服器、不取廣告 ID。好奇心不必被誰盯著。"
+    bullets:
+      - "與自家伺服器零流量"
+      - "Face ID 保護私密資料夾"
+      - "廣告 SDK / 分析 SDK / IDFA 全不使用"
+    img: private
+
+pricing_head:
+  eyebrow: "Pricing"
+  title:
+    - "免費起步,"
+    - "需要時再升級。"
+  sub: "基本功能永遠免費。需要更多再升級。"
+
+plans:
+  - name: "Free"
+    price: "NT$0"
+    unit: ""
+    note: "基本功能永遠免費。"
+    items:
+      - "資料夾 / 筆記 / 標籤"
+      - "從分享選單匯入"
+      - "Face ID 上鎖"
+    featured: false
+  - name: "Yearly Premium"
+    price: "NT$900"
+    unit: "/年"
+    note: "每月約 NT$75。"
+    items:
+      - "無上限的資料夾"
+      - "AI 摘要 (選用)"
+      - "私密資料夾"
+      - "日後新增的 Premium 功能"
+    featured: true
+    badge: "Most popular"
+  - name: "Lifetime"
+    price: "NT$1,890"
+    unit: "/一次購買"
+    note: "未來更新都包含。"
+    items:
+      - "Yearly 的所有功能"
+      - "往後新功能也包括"
+      - "不需訂閱"
+    featured: false
+
+faq_head: "常見問題"
+
+faq:
+  - q: "是把影片本體存進應用裡嗎?"
+    a: "不是。VideoClip 保存的是 YouTube、Instagram 等來源的 URL,播放時是你的裝置直接與那些服務通訊。我們不會接觸你的影片檔案。"
+  - q: "有廣告或行為追蹤嗎?"
+    a: "沒有。沒有使用 AdMob、Firebase Analytics 或任何追蹤 SDK。也不取廣告 ID (IDFA)。"
+  - q: "AI 摘要一定要用嗎?"
+    a: "不用。只有在你填入自己取得的 Google Gemini API 金鑰後才會運作。沒填就完全不會通訊。"
+  - q: "訂閱可以取消嗎?"
+    a: "可以。月費、年費隨時可在 iOS「設定」→「Apple ID」→「訂閱」取消。買斷版沒有取消的概念。"
+  - q: "可以多台裝置同步嗎?"
+    a: "目前僅限裝置內本地儲存。iCloud 同步是未來更新的考慮項目。"
+
+cta:
+  title:
+    - "讓你的「之後再看」"
+    - "有個安靜的落腳處。"
+  sub: "免費起步,需要時再升級 Premium。"
+  button: "在 App Store 取得"

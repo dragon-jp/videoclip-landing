@@ -1,6 +1,7 @@
 ---
 layout: default
-title: サポート
+lang: ja
+title: サポート — VideoClip
 description: VideoClip の使い方、トラブルシューティング、お問い合わせ。
 permalink: /support/
 ---

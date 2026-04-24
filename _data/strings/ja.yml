@@ -1,0 +1,199 @@
+locale: ja
+html_lang: ja
+dir: ltr
+
+meta:
+  title: "VideoClip — 見たい動画を、忘れない場所へ"
+  description: "YouTube や Instagram の動画をフォルダで整理し、メモと一緒に保存できる iOS アプリ。広告なし、追跡なし、端末内完結。"
+
+nav:
+  features: "Features"
+  pricing: "Pricing"
+  support: "Support"
+  cta: "App Store で入手"
+
+footer:
+  tagline_line1: "見たい動画を、"
+  tagline_line2: "忘れない場所へ。"
+  product: "Product"
+  features: "Features"
+  pricing: "Pricing"
+  download: "Download"
+  legal: "Legal"
+  privacy: "プライバシー"
+  terms: "利用規約 (EULA)"
+  contact: "Contact"
+  email_label: "お問い合わせ"
+  support: "サポート"
+  copy: "VideoClip — Built by an independent developer."
+  made: "Made with care in Japan."
+
+hero:
+  eyebrow: "iOS App · Available Soon"
+  title:
+    - "見たい動画を、"
+    - "忘れない場所へ。"
+  sub:
+    - "YouTube や Instagram で気になった動画を、"
+    - "フォルダとメモで整理する、静かな道具。"
+  cta_primary: "App Store で入手"
+  cta_secondary: "特長を見る"
+  meta: "広告なし · 追跡なし · 端末内で完結"
+
+marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+
+manifesto:
+  eyebrow: "Philosophy"
+  quote_a: "動画を"
+  quote_em1: "集める"
+  quote_b: "のではなく、"
+  quote_c: "あとで"
+  quote_em2: "考える"
+  quote_d: "ために残す。"
+  author: "VideoClip が大事にしていること"
+
+stats:
+  - { num: 0,   unit: "件", label: "広告の表示" }
+  - { num: 0,   unit: "種", label: "追跡 SDK" }
+  - { num: 100, unit: "%", label: "端末内で完結" }
+  - { num: 1,   unit: "人", label: "の開発者がつくっています" }
+
+features_head:
+  eyebrow: "Features"
+  title:
+    - "必要なものだけ。"
+    - "余計なものは置かない。"
+  sub: "通知も、おすすめも、広告もありません。見返したい動画と、あなたの思考のためだけの場所です。"
+
+features:
+  - num: "01 — Organize"
+    title:
+      - "フォルダで、"
+      - "意味ごとに分ける"
+    body: "テーマ、気分、プロジェクト。並べ替えも入れ子も自由。動画の山を、読み返せる棚に。"
+  - num: "02 — Think"
+    title:
+      - "メモで、"
+      - "見た理由を残す"
+    body: "なぜ保存したのか。どこが良かったのか。Markdown でそのまま書ける、小さなノート機能。"
+  - num: "03 — Private"
+    title:
+      - "すべて、"
+      - "端末の中で完結する"
+    body: "自社サーバーへの送信なし、広告 ID の取得なし、追跡 SDK なし。Face ID でロックも可能。"
+  - num: "04 — Share"
+    title:
+      - "共有シートから、"
+      - "一瞬で保存"
+    body: "Safari や Instagram、YouTube の共有メニューから VideoClip を選ぶだけで、URL を取り込めます。"
+  - num: "05 — Search"
+    title:
+      - "タイトルでもメモでも、"
+      - "横断検索"
+    body: "思い出したキーワードひとつで、フォルダを越えて見つけ出せます。"
+  - num: "06 — AI"
+    title:
+      - "必要なときだけ、"
+      - "AI に要約させる"
+    body: "自分で取得した Gemini API キーを設定すれば、動画の要約を生成可能。未設定なら通信なし。"
+
+showcase:
+  - tag: "Organize"
+    title:
+      - "フォルダは、"
+      - "あなたの思考の地図。"
+    body: "「料理」「内装のアイデア」「もう一度観る映画」。フォルダ名は、あなたが何に注意を向けているかの記録です。動画を入れるたびに、地図の輪郭がくっきりしていきます。"
+    bullets:
+      - "フォルダの入れ子・並べ替え自由"
+      - "動画に複数タグを付与可能"
+      - "アイコンとカラーでひと目で識別"
+    img: organize
+  - tag: "Annotate"
+    title:
+      - "メモは、"
+      - "未来の自分への手紙。"
+    body: "あとで見返したとき、なぜ保存したかを思い出せる動画は多くありません。VideoClip は、動画の隣に小さなノートを置きます。読み返したときに、ちゃんと役に立つように。"
+    bullets:
+      - "Markdown 記法でそのまま書ける"
+      - "動画と 1:1 で紐づくミニノート"
+      - "検索にもメモ本文が含まれる"
+    img: annotate
+  - tag: "Find"
+    title:
+      - "いつでも、"
+      - "一語で戻ってこれる。"
+    body: "フォルダが増えても、メモが積み重なっても、検索がすべてを横断します。「あのイタリア料理の動画」— その一言で十分です。"
+    bullets:
+      - "タイトル・メモ・タグを一括検索"
+      - "最近見たものから順にソート"
+      - "フォルダを越えて結果を表示"
+    img: find
+  - tag: "Private by default"
+    title:
+      - "あなたの関心は、"
+      - "あなただけのもの。"
+    body: "保存した URL、書いたメモ、並びの癖。こうしたものは端末の外に出ません。自社サーバーもなければ、広告 ID も取りません。好奇心は、誰にも監視されなくていい。"
+    bullets:
+      - "自社サーバーへの送信ゼロ"
+      - "Face ID でプライベートフォルダを保護"
+      - "広告 SDK / 解析 SDK / IDFA すべて不使用"
+    img: private
+
+pricing_head:
+  eyebrow: "Pricing"
+  title:
+    - "無料で始めて、"
+    - "必要になってから選ぶ。"
+  sub: "基本機能は無料のまま。もっと使いたくなったら、好きなプランを選べます。"
+
+plans:
+  - name: "Free"
+    price: "¥0"
+    unit: ""
+    note: "基本機能をずっと無料で。"
+    items:
+      - "フォルダ / メモ / タグ"
+      - "共有シート取り込み"
+      - "Face ID ロック"
+    featured: false
+  - name: "Yearly Premium"
+    price: "¥4,800"
+    unit: "/年"
+    note: "月あたり ¥400 相当。"
+    items:
+      - "無制限フォルダ"
+      - "AI 要約機能 (任意)"
+      - "プライベートフォルダ"
+      - "今後追加される Premium 機能"
+    featured: true
+    badge: "Most popular"
+  - name: "Lifetime"
+    price: "¥9,800"
+    unit: "/一回のみ"
+    note: "アップデートもずっと込み。"
+    items:
+      - "Yearly の全機能"
+      - "今後の新機能も含む"
+      - "サブスクリプション不要"
+    featured: false
+
+faq_head: "よくある質問"
+
+faq:
+  - q: "動画そのものをアプリ内に保存するのですか？"
+    a: "いいえ。YouTube や Instagram などホスティング元の URL を保存し、再生時にそれらのサービスと直接通信します。動画ファイルを当社サーバーに送ることはありません。"
+  - q: "広告や行動追跡はありますか？"
+    a: "ありません。AdMob や Firebase Analytics、行動追跡 SDK は一切使用していません。広告 ID (IDFA) の取得も行いません。"
+  - q: "AI 要約機能は必ず使う必要がありますか？"
+    a: "いいえ。ご自身で取得した Google Gemini API キーを設定した場合のみ動作します。未設定なら通信は発生せず、他の機能には影響しません。"
+  - q: "課金は解約できますか？"
+    a: "月額・年額サブスクリプションはいつでも iOS の「設定」→「Apple ID」→「サブスクリプション」から解約できます。買い切りプランは解約の概念がありません。"
+  - q: "複数端末で同期できますか？"
+    a: "現在は端末内ローカル保存のみです。iCloud 同期は将来のアップデートで検討中です。"
+
+cta:
+  title:
+    - "あなたの「あとで観る」に、"
+    - "落ち着く場所を。"
+  sub: "無料で始められます。必要になったら Premium に。"
+  button: "App Store で入手"

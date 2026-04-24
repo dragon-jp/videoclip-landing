@@ -1,35 +1,63 @@
+{%- assign lang = page.lang | default: 'ja' -%}
+{%- assign t = site.data.strings[lang] -%}
+{%- if page.lang == 'ja' -%}{%- assign homeurl = '/' -%}{%- else -%}{%- assign homeurl = '/' | append: lang | append: '/' -%}{%- endif -%}
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ t.html_lang }}" dir="{{ t.dir }}">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title }}{% if page.title != site.title %} — {{ site.title }}{% endif %}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ t.meta.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: t.meta.description }}" />
 
-  <meta property="og:title" content="{{ page.title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:title" content="{{ page.title | default: t.meta.title }}" />
+  <meta property="og:description" content="{{ page.description | default: t.meta.description }}" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#F5F0E4" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0B0B09" media="(prefers-color-scheme: dark)" />
 
+  <!-- Alternate languages (hreflang) -->
+  {%- for loc in site.data.strings -%}
+    {%- if loc[0] == 'ja' -%}
+      <link rel="alternate" hreflang="{{ loc[1].html_lang }}" href="{{ '/' | absolute_url }}" />
+    {%- else -%}
+      <link rel="alternate" hreflang="{{ loc[1].html_lang }}" href="{{ '/' | append: loc[0] | append: '/' | absolute_url }}" />
+    {%- endif -%}
+  {%- endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Noto+Sans+JP:wght@400;500;700;800&family=Noto+Sans+KR:wght@400;500;700;800&family=Noto+Sans+TC:wght@400;500;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
-<body>
+<body class="lang-{{ lang }}">
   <div class="scroll-progress" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="nav">
-      <a href="{{ '/' | relative_url }}" class="brand">VideoClip</a>
+      <a href="{{ homeurl | relative_url }}" class="brand">VideoClip</a>
       <nav class="nav-links">
-        <a href="{{ '/#features' | relative_url }}">Features</a>
-        <a href="{{ '/#pricing' | relative_url }}">Pricing</a>
-        <a href="{{ '/support/' | relative_url }}">Support</a>
-        <a href="{{ '/#download' | relative_url }}" class="btn btn-primary">Get the App</a>
+        <a href="{{ homeurl | append: '#features' | relative_url }}">{{ t.nav.features }}</a>
+        <a href="{{ homeurl | append: '#pricing' | relative_url }}">{{ t.nav.pricing }}</a>
+        <a href="{{ '/support/' | relative_url }}">{{ t.nav.support }}</a>
+
+        <div class="lang-switch">
+          <button class="lang-toggle" aria-haspopup="true" aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg>
+            <span>{{ lang | upcase }}</span>
+          </button>
+          <ul class="lang-menu" role="menu">
+            <li><a href="{{ '/' | relative_url }}" {% if lang == 'ja' %}aria-current="page"{% endif %}>日本語</a></li>
+            <li><a href="{{ '/en/' | relative_url }}" {% if lang == 'en' %}aria-current="page"{% endif %}>English</a></li>
+            <li><a href="{{ '/ko/' | relative_url }}" {% if lang == 'ko' %}aria-current="page"{% endif %}>한국어</a></li>
+            <li><a href="{{ '/zh/' | relative_url }}" {% if lang == 'zh' %}aria-current="page"{% endif %}>繁體中文</a></li>
+            <li><a href="{{ '/es/' | relative_url }}" {% if lang == 'es' %}aria-current="page"{% endif %}>Español</a></li>
+          </ul>
+        </div>
+
+        <a href="{{ homeurl | append: '#download' | relative_url }}" class="btn btn-primary nav-cta">{{ t.nav.cta }}</a>
       </nav>
     </div>
   </header>
@@ -42,28 +70,31 @@
     <div class="container footer-grid">
       <div>
         <p class="brand">VideoClip</p>
-        <p class="muted small">見たい動画を、<br />忘れない場所へ。</p>
+        <p class="muted small">
+          <span class="seg">{{ t.footer.tagline_line1 }}</span>
+          <span class="seg">{{ t.footer.tagline_line2 }}</span>
+        </p>
       </div>
       <div>
-        <p class="label">Product</p>
-        <a href="{{ '/#features' | relative_url }}">Features</a>
-        <a href="{{ '/#pricing' | relative_url }}">Pricing</a>
-        <a href="{{ '/#download' | relative_url }}">Download</a>
+        <p class="label">{{ t.footer.product }}</p>
+        <a href="{{ homeurl | append: '#features' | relative_url }}">{{ t.footer.features }}</a>
+        <a href="{{ homeurl | append: '#pricing' | relative_url }}">{{ t.footer.pricing }}</a>
+        <a href="{{ homeurl | append: '#download' | relative_url }}">{{ t.footer.download }}</a>
       </div>
       <div>
-        <p class="label">Legal</p>
-        <a href="https://dragon-jp.github.io/videoclip-privacy-policy/">Privacy</a>
-        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms (EULA)</a>
+        <p class="label">{{ t.footer.legal }}</p>
+        <a href="https://dragon-jp.github.io/videoclip-privacy-policy/">{{ t.footer.privacy }}</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{{ t.footer.terms }}</a>
       </div>
       <div>
-        <p class="label">Contact</p>
+        <p class="label">{{ t.footer.contact }}</p>
         <a href="mailto:alaofficial.jp@gmail.com">alaofficial.jp@gmail.com</a>
-        <a href="{{ '/support/' | relative_url }}">Support</a>
+        <a href="{{ '/support/' | relative_url }}">{{ t.footer.support }}</a>
       </div>
     </div>
     <div class="container copyright">
-      <p class="muted small">© <span id="year">2026</span> VideoClip — Built by an independent developer.</p>
-      <p class="muted small">Made with care in Japan.</p>
+      <p class="muted small">© <span id="year">{{ site.time | date: '%Y' }}</span> {{ t.footer.copy }}</p>
+      <p class="muted small">{{ t.footer.made }}</p>
     </div>
   </footer>
 

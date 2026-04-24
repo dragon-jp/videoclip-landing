@@ -92,4 +92,21 @@
   // Current year in footer
   const yr = document.getElementById('year');
   if (yr) yr.textContent = new Date().getFullYear();
+
+  // Language switch (click to toggle on touch; hover also works via CSS)
+  const langSwitch = document.querySelector('.lang-switch');
+  if (langSwitch) {
+    const toggle = langSwitch.querySelector('.lang-toggle');
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = langSwitch.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.addEventListener('click', (e) => {
+      if (!langSwitch.contains(e.target)) {
+        langSwitch.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
 })();

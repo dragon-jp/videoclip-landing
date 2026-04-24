@@ -1,0 +1,176 @@
+{%- assign t = site.data.strings[page.lang] -%}
+{%- assign basepath = '/' | append: page.lang | append: '/' -%}
+{%- if page.lang == 'ja' -%}{%- assign basepath = '/' -%}{%- endif -%}
+{%- assign is_cjk = false -%}
+{%- if page.lang == 'ja' or page.lang == 'ko' or page.lang == 'zh' -%}{%- assign is_cjk = true -%}{%- endif -%}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div>
+      <p class="eyebrow" data-animate>{{ t.hero.eyebrow }}</p>
+      <h1{% if is_cjk %} class="cjk-h"{% endif %}>
+        {%- for line in t.hero.title -%}
+          <span class="line{% if forloop.index > 1 %} delay-{{ forloop.index0 }}{% endif %}"><span>{{ line }}</span></span>
+        {%- endfor -%}
+      </h1>
+      <p class="sub{% if is_cjk %} cjk{% endif %}" data-animate data-animate-delay="2">
+        {%- for seg in t.hero.sub -%}<span class="seg">{{ seg }}</span>{%- endfor -%}
+      </p>
+      <div class="hero-cta" data-animate data-animate-delay="3">
+        <a href="#download" class="btn btn-primary">
+          {{ t.hero.cta_primary }}
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#features" class="btn btn-ghost">{{ t.hero.cta_secondary }}</a>
+      </div>
+      <div class="hero-meta" data-animate data-animate-delay="4">
+        <span class="dot"></span>
+        <span>{{ t.hero.meta }}</span>
+      </div>
+    </div>
+    <div class="hero-visual" data-animate="fade" data-animate-delay="2">
+      <img src="{{ '/assets/svg/hero.svg' | relative_url }}" alt="" role="presentation" loading="eager" />
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    {%- for word in t.marquee -%}<span>{{ word }}</span>{%- endfor -%}
+    {%- for word in t.marquee -%}<span>{{ word }}</span>{%- endfor -%}
+  </div>
+</section>
+
+<!-- Manifesto -->
+<section class="manifesto" id="philosophy">
+  <div class="container">
+    <p class="eyebrow" data-animate>{{ t.manifesto.eyebrow }}</p>
+    <h2 class="manifesto-quote{% if is_cjk %} cjk-h{% endif %}" data-animate>
+      <span class="seg">{{ t.manifesto.quote_a }}</span>
+      <span class="seg"><span class="serif">{{ t.manifesto.quote_em1 }}</span> {{ t.manifesto.quote_b }}</span>
+      <span class="seg">{{ t.manifesto.quote_c }}</span>
+      <span class="seg"><span class="serif">{{ t.manifesto.quote_em2 }}</span> {{ t.manifesto.quote_d }}</span>
+    </h2>
+    <p class="manifesto-author" data-animate data-animate-delay="1">{{ t.manifesto.author }}</p>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div class="container stats-grid">
+    {%- for s in t.stats -%}
+    <div class="stat" data-animate data-animate-delay="{{ forloop.index0 }}">
+      <p class="stat-num"><span data-count="{{ s.num }}">0</span>{%- if s.unit != "" %}<span class="unit">{{ s.unit }}</span>{%- endif %}</p>
+      <p class="stat-label">{{ s.label }}</p>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-head" data-animate>
+      <p class="eyebrow">{{ t.features_head.eyebrow }}</p>
+      <h2{% if is_cjk %} class="cjk-h"{% endif %}>
+        {%- for line in t.features_head.title -%}<span class="seg">{{ line }}</span>{%- endfor -%}
+      </h2>
+      <p>{{ t.features_head.sub }}</p>
+    </div>
+    <div class="features-grid">
+      {%- for f in t.features -%}
+      <div class="feature" data-animate data-animate-delay="{{ forloop.index0 | modulo: 3 }}">
+        <p class="num">{{ f.num }}</p>
+        <h3{% if is_cjk %} class="cjk-h"{% endif %}>
+          {%- for line in f.title -%}<span class="seg">{{ line }}</span>{%- endfor -%}
+        </h3>
+        <p>{{ f.body }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- Showcase -->
+<section class="showcase">
+  <div class="container">
+    {%- for s in t.showcase -%}
+    <div class="showcase-row{% if forloop.index | modulo: 2 == 0 %} reverse{% endif %}">
+      <div class="showcase-copy" data-animate>
+        <p class="feature-tag">{{ s.tag }}</p>
+        <h2{% if is_cjk %} class="cjk-h"{% endif %}>
+          {%- for line in s.title -%}<span class="seg">{{ line }}</span>{%- endfor -%}
+        </h2>
+        <p>{{ s.body }}</p>
+        <ul>
+          {%- for b in s.bullets -%}<li>{{ b }}</li>{%- endfor -%}
+        </ul>
+      </div>
+      <div class="showcase-visual" data-animate data-animate-delay="1">
+        <img src="{{ '/assets/svg/' | append: s.img | append: '.svg' | relative_url }}" alt="" role="presentation" loading="lazy" />
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head" data-animate>
+      <p class="eyebrow">{{ t.pricing_head.eyebrow }}</p>
+      <h2{% if is_cjk %} class="cjk-h"{% endif %}>
+        {%- for line in t.pricing_head.title -%}<span class="seg">{{ line }}</span>{%- endfor -%}
+      </h2>
+      <p>{{ t.pricing_head.sub }}</p>
+    </div>
+    <div class="pricing-grid">
+      {%- for p in t.plans -%}
+      <div class="plan{% if p.featured %} featured{% endif %}" data-animate data-animate-delay="{{ forloop.index0 }}">
+        {%- if p.featured and p.badge -%}<span class="badge">{{ p.badge }}</span>{%- endif -%}
+        <p class="plan-name">{{ p.name }}</p>
+        <p class="plan-price">{{ p.price }}{%- if p.unit != "" %}<small>{{ p.unit }}</small>{%- endif %}</p>
+        <p class="note">{{ p.note }}</p>
+        <ul>
+          {%- for it in p.items -%}<li>{{ it }}</li>{%- endfor -%}
+        </ul>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container faq-container">
+    <div class="section-head faq-head" data-animate>
+      <p class="eyebrow">FAQ</p>
+      <h2>{{ t.faq_head }}</h2>
+    </div>
+    {%- for item in t.faq -%}
+    <details data-animate>
+      <summary>{{ item.q }}<span class="icon" aria-hidden="true"></span></summary>
+      <p class="answer">{{ item.a }}</p>
+    </details>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="download">
+  <div class="container">
+    <h2 data-animate{% if is_cjk %} class="cjk-h"{% endif %}>
+      {%- for line in t.cta.title -%}<span class="seg">{{ line }}</span>{%- endfor -%}
+    </h2>
+    <p data-animate data-animate-delay="1">{{ t.cta.sub }}</p>
+    <div data-animate data-animate-delay="2">
+      <a href="#" class="btn btn-primary">
+        {{ t.cta.button }}
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>

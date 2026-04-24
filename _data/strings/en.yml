@@ -1,0 +1,179 @@
+locale: en
+html_lang: en
+dir: ltr
+
+meta:
+  title: "VideoClip — A quieter home for the videos you don't want to forget"
+  description: "Save, organize, and annotate videos from YouTube and Instagram. No ads, no tracking, everything stays on your iPhone."
+
+nav:
+  features: "Features"
+  pricing: "Pricing"
+  support: "Support"
+  cta: "Get on App Store"
+
+footer:
+  tagline_line1: "A quieter home for"
+  tagline_line2: "the videos you save."
+  product: "Product"
+  features: "Features"
+  pricing: "Pricing"
+  download: "Download"
+  legal: "Legal"
+  privacy: "Privacy"
+  terms: "Terms (EULA)"
+  contact: "Contact"
+  email_label: "Email"
+  support: "Support"
+  copy: "VideoClip — Built by an independent developer."
+  made: "Made with care in Japan."
+
+hero:
+  eyebrow: "iOS App · Available Soon"
+  title:
+    - "A quieter home"
+    - "for the videos you save."
+  sub:
+    - "Fold videos from YouTube and Instagram into"
+    - "folders and notes. The quiet opposite of a feed."
+  cta_primary: "Get on App Store"
+  cta_secondary: "See what's inside"
+  meta: "No ads · No tracking · Everything stays on device"
+
+marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+
+manifesto:
+  eyebrow: "Philosophy"
+  quote_a: "Don't"
+  quote_em1: "collect"
+  quote_b: "videos."
+  quote_c: "Keep them so"
+  quote_em2: "you can think"
+  quote_d: "about them later."
+  author: "What VideoClip stands for."
+
+stats:
+  - { num: 0,   unit: "", label: "Ads shown" }
+  - { num: 0,   unit: "", label: "Tracking SDKs" }
+  - { num: 100, unit: "%", label: "On-device" }
+  - { num: 1,   unit: "", label: "Indie developer, made with care" }
+
+features_head:
+  eyebrow: "Features"
+  title:
+    - "Only what you need."
+    - "Nothing you don't."
+  sub: "No notifications. No recommendations. No ads. Just the videos you saved and the thoughts you put next to them."
+
+features:
+  - num: "01 — Organize"
+    title: ["Folders that", "make sense to you"]
+    body: "Themes, moods, projects. Nest and reorder freely. Turn a pile of videos into a shelf you actually read."
+  - num: "02 — Think"
+    title: ["Notes next to", "every video"]
+    body: "Why did you save it? What stood out? Markdown-friendly little notes, right where you'll find them."
+  - num: "03 — Private"
+    title: ["Everything stays", "on your device"]
+    body: "No servers of ours. No ad IDs. No tracking SDKs. Lock private folders with Face ID."
+  - num: "04 — Share"
+    title: ["Save from any app", "in one tap"]
+    body: "Pick VideoClip from the iOS share sheet in Safari, Instagram, or YouTube. That's it."
+  - num: "05 — Search"
+    title: ["One word gets you", "back to the video"]
+    body: "Search across titles, notes, and tags — cutting through folders."
+  - num: "06 — AI"
+    title: ["Summaries,", "only when you ask"]
+    body: "Bring your own Gemini API key and get on-device summaries. Leave it blank and there's no network at all."
+
+showcase:
+  - tag: "Organize"
+    title: ["Folders become", "a map of your attention."]
+    body: "\"Cooking,\" \"Interior ideas,\" \"Films to rewatch.\" The folder names you pick describe what you care about. Add videos, and the map sharpens."
+    bullets:
+      - "Nest and reorder freely"
+      - "Tag videos with multiple labels"
+      - "Icons and colors at a glance"
+    img: organize
+  - tag: "Annotate"
+    title: ["Notes are letters", "to your future self."]
+    body: "Most videos you save come back unreadable — you forgot why. VideoClip keeps a small note next to each one, so it's still useful later."
+    bullets:
+      - "Write in Markdown"
+      - "One note per video, tightly bound"
+      - "Notes are included in search"
+    img: annotate
+  - tag: "Find"
+    title: ["One word and", "you're back."]
+    body: "As folders grow and notes stack up, search cuts through. \"That Italian pasta video\" — that's enough."
+    bullets:
+      - "Title, notes, and tags in one query"
+      - "Recently watched at the top"
+      - "Results reach across folders"
+    img: find
+  - tag: "Private by default"
+    title: ["Your curiosity", "is yours alone."]
+    body: "URLs saved, notes written, reorderings. None of it leaves your phone. No servers of ours, no ad IDs. Your curiosity doesn't have to be watched."
+    bullets:
+      - "Zero traffic to our servers"
+      - "Face ID for private folders"
+      - "No ad, analytics, or IDFA SDKs"
+    img: private
+
+pricing_head:
+  eyebrow: "Pricing"
+  title:
+    - "Start free,"
+    - "upgrade only when you want to."
+  sub: "Core features are free forever. Upgrade when you need more."
+
+plans:
+  - name: "Free"
+    price: "$0"
+    unit: ""
+    note: "Core features, free forever."
+    items:
+      - "Folders, notes, tags"
+      - "Share sheet import"
+      - "Face ID lock"
+    featured: false
+  - name: "Yearly Premium"
+    price: "$29.99"
+    unit: "/year"
+    note: "About $2.50/month."
+    items:
+      - "Unlimited folders"
+      - "AI summaries (optional)"
+      - "Private folders"
+      - "Future Premium features"
+    featured: true
+    badge: "Most popular"
+  - name: "Lifetime"
+    price: "$59.99"
+    unit: "/one time"
+    note: "Future updates included."
+    items:
+      - "Everything in Yearly"
+      - "All future features"
+      - "No subscription"
+    featured: false
+
+faq_head: "Questions people ask"
+
+faq:
+  - q: "Does VideoClip store the videos themselves?"
+    a: "No. VideoClip stores the URL from YouTube, Instagram, etc. When you play, your device talks directly to the hosting service. We never touch your video files."
+  - q: "Are there ads or tracking?"
+    a: "None. No AdMob, no Firebase Analytics, no behavior-tracking SDKs. We don't read your IDFA either."
+  - q: "Do I have to use the AI summaries?"
+    a: "No. They only activate when you paste in your own Google Gemini API key. Without it, there's no network call."
+  - q: "Can I cancel the subscription?"
+    a: "Yes. Monthly and yearly plans are cancellable any time via iOS Settings → Apple ID → Subscriptions. The lifetime plan has nothing to cancel."
+  - q: "Does it sync across devices?"
+    a: "Not yet. Everything is local for now. iCloud sync is on the roadmap."
+
+cta:
+  title:
+    - "Give your \"watch later\""
+    - "a quieter home."
+  sub: "Free to start. Upgrade if you need more."
+  button: "Get on App Store"

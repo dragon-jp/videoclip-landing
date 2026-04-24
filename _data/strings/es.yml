@@ -1,0 +1,179 @@
+locale: es
+html_lang: es
+dir: ltr
+
+meta:
+  title: "VideoClip — Un lugar tranquilo para los vídeos que no quieres olvidar"
+  description: "Guarda y organiza vídeos de YouTube e Instagram con carpetas y notas. Sin anuncios, sin seguimiento, todo se queda en tu iPhone."
+
+nav:
+  features: "Features"
+  pricing: "Pricing"
+  support: "Support"
+  cta: "Conseguir en App Store"
+
+footer:
+  tagline_line1: "Un lugar tranquilo"
+  tagline_line2: "para lo que quieres recordar."
+  product: "Product"
+  features: "Features"
+  pricing: "Pricing"
+  download: "Download"
+  legal: "Legal"
+  privacy: "Privacidad"
+  terms: "Términos (EULA)"
+  contact: "Contact"
+  email_label: "Contacto"
+  support: "Soporte"
+  copy: "VideoClip — Hecho por un desarrollador independiente."
+  made: "Made with care in Japan."
+
+hero:
+  eyebrow: "iOS App · Próximamente"
+  title:
+    - "Un lugar tranquilo"
+    - "para los vídeos que guardas."
+  sub:
+    - "Organiza los vídeos que te llamaron la atención"
+    - "en YouTube o Instagram con carpetas y notas."
+  cta_primary: "Conseguir en App Store"
+  cta_secondary: "Ver detalles"
+  meta: "Sin anuncios · Sin seguimiento · Todo en el dispositivo"
+
+marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
+
+manifesto:
+  eyebrow: "Philosophy"
+  quote_a: "No se trata de"
+  quote_em1: "coleccionar"
+  quote_b: "vídeos,"
+  quote_c: "sino de guardar para"
+  quote_em2: "pensar"
+  quote_d: "sobre ellos después."
+  author: "Lo que le importa a VideoClip."
+
+stats:
+  - { num: 0,   unit: "", label: "anuncios mostrados" }
+  - { num: 0,   unit: "", label: "SDKs de seguimiento" }
+  - { num: 100, unit: "%", label: "en el dispositivo" }
+  - { num: 1,   unit: "", label: "desarrollador independiente" }
+
+features_head:
+  eyebrow: "Features"
+  title:
+    - "Solo lo necesario."
+    - "Nada de lo demás."
+  sub: "Sin notificaciones, sin recomendaciones, sin anuncios. Solo los vídeos que guardas y lo que pensaste sobre ellos."
+
+features:
+  - num: "01 — Organize"
+    title: ["Carpetas,", "con el sentido que tú les das"]
+    body: "Temas, estados de ánimo, proyectos. Ordena y anida libremente. Convierte un montón de vídeos en una estantería que puedes volver a leer."
+  - num: "02 — Think"
+    title: ["Notas,", "junto a cada vídeo"]
+    body: "Por qué lo guardaste, qué te gustó. Notas pequeñas con soporte Markdown, justo al lado del vídeo."
+  - num: "03 — Private"
+    title: ["Todo se queda", "en tu dispositivo"]
+    body: "No se envía nada a nuestros servidores. Sin IDs de publicidad, sin SDKs de seguimiento. Puedes bloquear carpetas con Face ID."
+  - num: "04 — Share"
+    title: ["Guarda desde cualquier app,", "con un solo toque"]
+    body: "Elige VideoClip en el menú compartir de Safari, Instagram o YouTube. Y ya."
+  - num: "05 — Search"
+    title: ["Una palabra", "y lo encuentras"]
+    body: "Busca a la vez entre títulos, notas y etiquetas. Las carpetas no estorban."
+  - num: "06 — AI"
+    title: ["Resúmenes con IA,", "solo si los pides"]
+    body: "Configura tu propia API key de Gemini y genera resúmenes. Sin clave, no hay ninguna conexión."
+
+showcase:
+  - tag: "Organize"
+    title: ["Las carpetas son", "el mapa de tu atención."]
+    body: "\"Cocina\", \"Ideas de interiorismo\", \"Películas para revisionar\". Los nombres que eliges cuentan en qué piensas. Cuantos más vídeos añades, más nítido se vuelve el mapa."
+    bullets:
+      - "Carpetas anidadas y reordenables"
+      - "Varias etiquetas por vídeo"
+      - "Iconos y colores para identificar al vuelo"
+    img: organize
+  - tag: "Annotate"
+    title: ["Las notas son", "cartas para tu yo futuro."]
+    body: "Muchos vídeos, al volver a ellos, ya no recuerdas por qué los guardaste. VideoClip pone una nota pequeña al lado de cada uno. Para que aún sirvan."
+    bullets:
+      - "Escribe directamente en Markdown"
+      - "Una nota por vídeo, bien vinculada"
+      - "Las notas también aparecen en la búsqueda"
+    img: annotate
+  - tag: "Find"
+    title: ["Vuelves con", "una sola palabra."]
+    body: "Por mucho que crezcan las carpetas o se acumulen las notas, la búsqueda atraviesa todo. \"Aquel vídeo de pasta italiana\" — con eso basta."
+    bullets:
+      - "Títulos, notas y etiquetas en una consulta"
+      - "Los más recientes primero"
+      - "Resultados que cruzan carpetas"
+    img: find
+  - tag: "Private by default"
+    title: ["Tu curiosidad", "es solo tuya."]
+    body: "Los enlaces que guardas, las notas que escribes, cómo organizas. Nada de eso sale del dispositivo. Ni servidores nuestros, ni IDs de publicidad. La curiosidad no tiene por qué ser vigilada."
+    bullets:
+      - "Cero tráfico a servidores nuestros"
+      - "Face ID para carpetas privadas"
+      - "Sin SDKs de anuncios, analítica ni IDFA"
+    img: private
+
+pricing_head:
+  eyebrow: "Pricing"
+  title:
+    - "Empieza gratis,"
+    - "actualiza solo cuando quieras."
+  sub: "Lo básico es gratis para siempre. Actualiza cuando necesites más."
+
+plans:
+  - name: "Free"
+    price: "€0"
+    unit: ""
+    note: "Lo básico, gratis para siempre."
+    items:
+      - "Carpetas, notas, etiquetas"
+      - "Importar desde el menú compartir"
+      - "Bloqueo con Face ID"
+    featured: false
+  - name: "Yearly Premium"
+    price: "€29,99"
+    unit: "/año"
+    note: "Unos €2,50/mes."
+    items:
+      - "Carpetas ilimitadas"
+      - "Resúmenes con IA (opcional)"
+      - "Carpetas privadas"
+      - "Nuevas funciones Premium"
+    featured: true
+    badge: "Most popular"
+  - name: "Lifetime"
+    price: "€59,99"
+    unit: "/pago único"
+    note: "Incluye futuras actualizaciones."
+    items:
+      - "Todo lo de Yearly"
+      - "Nuevas funciones incluidas"
+      - "Sin suscripción"
+    featured: false
+
+faq_head: "Preguntas habituales"
+
+faq:
+  - q: "¿VideoClip guarda los vídeos en sí?"
+    a: "No. VideoClip guarda la URL de YouTube, Instagram, etc. Al reproducir, tu dispositivo habla directamente con la plataforma que los aloja. No tocamos el archivo de vídeo."
+  - q: "¿Hay anuncios o seguimiento?"
+    a: "Ninguno. Sin AdMob, sin Firebase Analytics, sin SDKs de seguimiento. Tampoco leemos tu IDFA."
+  - q: "¿Tengo que usar los resúmenes con IA?"
+    a: "No. Solo se activan si pones tu propia API key de Google Gemini. Sin clave, no se hace ninguna conexión."
+  - q: "¿Se puede cancelar la suscripción?"
+    a: "Sí. Mensual y anual se pueden cancelar en cualquier momento en Ajustes → Apple ID → Suscripciones. El plan de por vida no tiene nada que cancelar."
+  - q: "¿Se sincroniza entre dispositivos?"
+    a: "Todavía no. De momento todo es local. La sincronización con iCloud está en la hoja de ruta."
+
+cta:
+  title:
+    - "Dale a tu \"ver más tarde\""
+    - "un lugar tranquilo."
+  sub: "Empieza gratis. Actualiza si necesitas más."
+  button: "Conseguir en App Store"
