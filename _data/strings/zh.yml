@@ -44,11 +44,11 @@ marquee: ["收藏", "整理", "寫下", "回想", "再找", "再看"]
 
 manifesto:
   eyebrow: "Philosophy"
-  quote_a: "影片留下來,"
-  quote_em1: "不是為了堆積,"
+  quote_a: "存了卻不看,"
+  quote_em1: "等於沒存。"
   quote_b: ""
-  quote_c: "而是之後"
-  quote_em2: "還能再想一想。"
+  quote_c: "所以要"
+  quote_em2: "找得回、看得下。"
   quote_d: ""
   author: "我們想守住的事。"
 
@@ -104,7 +104,7 @@ showcase:
     img: annotate
   - tag: "Find"
     title: ["隨時,", "一個字就能回來。"]
-    body: "資料夾再多、筆記再厚,搜尋一次到位。\"那支義大利菜的影片\" — 這一句就夠了。"
+    body: "資料夾再多、筆記再厚,搜尋一次到位。\"那個北歐風客廳\"、\"那個眼線教學\" — 一句話就夠了。"
     bullets:
       - "同時搜尋標題、筆記、標籤"
       - "最近看過的優先排序"
@@ -139,7 +139,7 @@ plans:
   - name: "Yearly Premium"
     price: "NT$900"
     unit: "/年"
-    note: "每月約 NT$75。"
+    note: "一個月 NT$75,差不多一杯手搖。"
     items:
       - "無上限的資料夾"
       - "AI 摘要 (選用)"
