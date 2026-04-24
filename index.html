@@ -1,80 +1,121 @@
 ---
 layout: default
 title: VideoClip — 見たい動画を、忘れない場所へ
-description: YouTube や Instagram の動画をフォルダで整理し、メモと一緒に保存できる iOS アプリ。広告なし、追跡なし。
+description: YouTube や Instagram の動画をフォルダで整理し、メモと一緒に保存できる iOS アプリ。広告なし、追跡なし、端末内完結。
 ---
 
 <!-- Hero -->
 <section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
   <div class="container hero-inner">
     <div>
-      <p class="eyebrow">iOS App — Available Soon</p>
-      <h1>見たい動画を、<br />忘れない場所へ。</h1>
-      <p class="sub">
-        YouTube や Instagram で気になった動画を、フォルダとメモで整理する。
-        あとで見返すための、静かな道具。
+      <p class="eyebrow" data-animate>iOS App · Available Soon</p>
+      <h1>
+        <span class="line"><span>見たい動画を、</span></span>
+        <span class="line delay-1"><span>忘れない場所へ。</span></span>
+      </h1>
+      <p class="sub" data-animate data-animate-delay="2">
+        YouTube や Instagram で気になった動画を、<br />
+        フォルダとメモで整理する、静かな道具。
       </p>
-      <div class="hero-cta">
-        <a href="#download" class="btn btn-primary">App Store で入手</a>
+      <div class="hero-cta" data-animate data-animate-delay="3">
+        <a href="#download" class="btn btn-primary">
+          App Store で入手
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
         <a href="#features" class="btn btn-ghost">特長を見る</a>
       </div>
+      <div class="hero-meta" data-animate data-animate-delay="4">
+        <span class="dot"></span>
+        <span>広告なし · 追跡なし · 端末内で完結</span>
+      </div>
     </div>
-    <div class="hero-visual">
-      <img src="{{ '/assets/images/hero.png' | relative_url }}" alt="VideoClip のホーム画面" />
+    <div class="hero-visual" data-animate="fade" data-animate-delay="2">
+      <img src="{{ '/assets/svg/hero.svg' | relative_url }}" alt="" role="presentation" />
     </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Save</span><span>Organize</span><span>Annotate</span><span>Reflect</span><span>Return</span><span>Rewatch</span>
+    <span>Save</span><span>Organize</span><span>Annotate</span><span>Reflect</span><span>Return</span><span>Rewatch</span>
   </div>
 </section>
 
 <!-- Manifesto -->
 <section class="manifesto" id="philosophy">
   <div class="container">
-    <p class="eyebrow">Philosophy</p>
-    <blockquote>
-      動画を<em>集める</em>のではなく、<br />
-      あとで<em>考える</em>ために残す。
-    </blockquote>
-    <p class="author">— VideoClip が大事にしていること</p>
+    <p class="eyebrow" data-animate>Philosophy</p>
+    <h2 class="manifesto-quote" data-animate>
+      動画を <span class="serif">集める</span> のではなく、<br />
+      あとで <span class="serif">考える</span> ために残す。
+    </h2>
+    <p class="manifesto-author" data-animate data-animate-delay="1">VideoClip が大事にしていること</p>
+  </div>
+</section>
+
+<!-- Stats / Conviction -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat" data-animate>
+      <p class="stat-num"><span data-count="0">0</span><span class="unit">件</span></p>
+      <p class="stat-label">広告の表示</p>
+    </div>
+    <div class="stat" data-animate data-animate-delay="1">
+      <p class="stat-num"><span data-count="0">0</span><span class="unit">種</span></p>
+      <p class="stat-label">追跡 SDK</p>
+    </div>
+    <div class="stat" data-animate data-animate-delay="2">
+      <p class="stat-num"><span data-count="100">0</span><span class="unit">%</span></p>
+      <p class="stat-label">端末内で完結</p>
+    </div>
+    <div class="stat" data-animate data-animate-delay="3">
+      <p class="stat-num"><span data-count="1">0</span><span class="unit">人</span></p>
+      <p class="stat-label">の開発者がつくっています</p>
+    </div>
   </div>
 </section>
 
 <!-- Features -->
 <section class="features" id="features">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head" data-animate>
       <p class="eyebrow">Features</p>
       <h2>必要なものだけ。<br />余計なものは置かない。</h2>
       <p>通知も、おすすめも、広告もありません。見返したい動画と、あなたの思考のためだけの場所です。</p>
     </div>
-    <div class="grid">
-      <div class="feature">
-        <span class="num">01 / Organize</span>
+    <div class="features-grid">
+      <div class="feature" data-animate>
+        <p class="num">01 — Organize</p>
         <h3>フォルダで、意味ごとに分ける</h3>
         <p>テーマ、気分、プロジェクト。並べ替えも入れ子も自由。動画の山を、読み返せる棚に。</p>
       </div>
-      <div class="feature">
-        <span class="num">02 / Think</span>
+      <div class="feature" data-animate data-animate-delay="1">
+        <p class="num">02 — Think</p>
         <h3>メモで、見た理由を残す</h3>
         <p>なぜ保存したのか。どこが良かったのか。Markdown でそのまま書ける、小さなノート機能。</p>
       </div>
-      <div class="feature">
-        <span class="num">03 / Private</span>
+      <div class="feature" data-animate data-animate-delay="2">
+        <p class="num">03 — Private</p>
         <h3>すべて、端末の中で完結する</h3>
         <p>自社サーバーへの送信なし、広告 ID の取得なし、追跡 SDK なし。Face ID でロックも可能。</p>
       </div>
-      <div class="feature">
-        <span class="num">04 / Share</span>
+      <div class="feature" data-animate>
+        <p class="num">04 — Share</p>
         <h3>共有シートから、一瞬で保存</h3>
-        <p>Safari や Instagram、YouTube の共有メニューから VideoClip を選ぶだけで、動画 URL を取り込めます。</p>
+        <p>Safari や Instagram、YouTube の共有メニューから VideoClip を選ぶだけで、URL を取り込めます。</p>
       </div>
-      <div class="feature">
-        <span class="num">05 / Search</span>
+      <div class="feature" data-animate data-animate-delay="1">
+        <p class="num">05 — Search</p>
         <h3>タイトルでもメモでも、横断検索</h3>
         <p>思い出したキーワードひとつで、フォルダを越えて見つけ出せます。</p>
       </div>
-      <div class="feature">
-        <span class="num">06 / AI (Optional)</span>
+      <div class="feature" data-animate data-animate-delay="2">
+        <p class="num">06 — AI (Optional)</p>
         <h3>必要なときだけ、AI に要約させる</h3>
-        <p>自分で取得した Gemini API キーを設定すれば、動画の要約を端末上で生成可能。API を使わなければ通信は発生しません。</p>
+        <p>自分で取得した Gemini API キーを設定すれば、動画の要約を生成可能。未設定なら通信なし。</p>
       </div>
     </div>
   </div>
@@ -84,44 +125,78 @@ description: YouTube や Instagram の動画をフォルダで整理し、メモ
 <section class="showcase">
   <div class="container">
     <div class="showcase-row">
-      <div class="showcase-copy">
-        <p class="eyebrow">Organize</p>
+      <div class="showcase-copy" data-animate>
+        <p class="feature-tag">Organize</p>
         <h2>フォルダは、<br />あなたの思考の地図。</h2>
         <p>
           「料理」「内装のアイデア」「もう一度観る映画」。フォルダ名は、あなたが何に注意を向けているかの記録です。
           動画を入れるたびに、地図の輪郭がくっきりしていきます。
         </p>
+        <ul>
+          <li>フォルダの入れ子・並べ替え自由</li>
+          <li>動画に複数タグを付与可能</li>
+          <li>アイコンとカラーでひと目で識別</li>
+        </ul>
       </div>
-      <div class="showcase-phone">
-        <img src="{{ '/assets/images/folder.png' | relative_url }}" alt="フォルダ一覧画面" />
+      <div class="showcase-visual" data-animate data-animate-delay="1">
+        <img src="{{ '/assets/svg/organize.svg' | relative_url }}" alt="" role="presentation" />
       </div>
     </div>
 
     <div class="showcase-row reverse">
-      <div class="showcase-copy">
-        <p class="eyebrow">Annotate</p>
+      <div class="showcase-copy" data-animate>
+        <p class="feature-tag">Annotate</p>
         <h2>メモは、<br />未来の自分への手紙。</h2>
         <p>
           あとで見返したとき、なぜ保存したかを思い出せる動画は多くありません。
           VideoClip は、動画の隣に小さなノートを置きます。読み返したときに、ちゃんと役に立つように。
         </p>
+        <ul>
+          <li>Markdown 記法でそのまま書ける</li>
+          <li>動画と 1:1 で紐づくミニノート</li>
+          <li>検索にもメモ本文が含まれる</li>
+        </ul>
       </div>
-      <div class="showcase-phone">
-        <img src="{{ '/assets/images/note.png' | relative_url }}" alt="メモ編集画面" />
+      <div class="showcase-visual" data-animate data-animate-delay="1">
+        <img src="{{ '/assets/svg/annotate.svg' | relative_url }}" alt="" role="presentation" />
       </div>
     </div>
 
     <div class="showcase-row">
-      <div class="showcase-copy">
-        <p class="eyebrow">Find</p>
+      <div class="showcase-copy" data-animate>
+        <p class="feature-tag">Find</p>
         <h2>いつでも、<br />一語で戻ってこれる。</h2>
         <p>
           フォルダが増えても、メモが積み重なっても、検索がすべてを横断します。
           「あのイタリア料理の動画」—その一言で十分です。
         </p>
+        <ul>
+          <li>タイトル・メモ・タグを一括検索</li>
+          <li>最近見たものから順にソート</li>
+          <li>フォルダを越えて結果を表示</li>
+        </ul>
       </div>
-      <div class="showcase-phone">
-        <img src="{{ '/assets/images/search.png' | relative_url }}" alt="検索画面" />
+      <div class="showcase-visual" data-animate data-animate-delay="1">
+        <img src="{{ '/assets/svg/find.svg' | relative_url }}" alt="" role="presentation" />
+      </div>
+    </div>
+
+    <div class="showcase-row reverse">
+      <div class="showcase-copy" data-animate>
+        <p class="feature-tag">Private by default</p>
+        <h2>あなたの関心は、<br />あなただけのもの。</h2>
+        <p>
+          保存した URL、書いたメモ、並びの癖。こうしたものは端末の外に出ません。自社サーバーもなければ、
+          広告 ID も取りません。好奇心は、誰にも監視されなくていい。
+        </p>
+        <ul>
+          <li>自社サーバーへの送信ゼロ</li>
+          <li>Face ID でプライベートフォルダを保護</li>
+          <li>広告 SDK / 解析 SDK / IDFA すべて不使用</li>
+        </ul>
+      </div>
+      <div class="showcase-visual" data-animate data-animate-delay="1">
+        <img src="{{ '/assets/svg/private.svg' | relative_url }}" alt="" role="presentation" />
       </div>
     </div>
   </div>
@@ -130,38 +205,38 @@ description: YouTube や Instagram の動画をフォルダで整理し、メモ
 <!-- Pricing -->
 <section class="pricing" id="pricing">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head" data-animate>
       <p class="eyebrow">Pricing</p>
       <h2>無料で始めて、<br />必要になってから選ぶ。</h2>
       <p>基本機能は無料のまま。もっと使いたくなったら、好きなプランを選べます。</p>
     </div>
     <div class="pricing-grid">
-      <div class="plan">
+      <div class="plan" data-animate>
         <p class="plan-name">Free</p>
         <p class="plan-price">¥0</p>
-        <p class="muted small">基本機能をずっと無料で。</p>
+        <p class="note">基本機能をずっと無料で。</p>
         <ul>
           <li>フォルダ / メモ / タグ</li>
           <li>共有シート取り込み</li>
           <li>Face ID ロック</li>
         </ul>
       </div>
-      <div class="plan featured">
-        <span class="badge">人気</span>
+      <div class="plan featured" data-animate data-animate-delay="1">
+        <span class="badge">Most popular</span>
         <p class="plan-name">Yearly Premium</p>
         <p class="plan-price">¥4,800<small>/年</small></p>
-        <p class="small">月あたり ¥400 相当。</p>
+        <p class="note">月あたり ¥400 相当。</p>
         <ul>
           <li>無制限フォルダ</li>
-          <li>AI 要約機能（任意）</li>
+          <li>AI 要約機能 (任意)</li>
           <li>プライベートフォルダ</li>
-          <li>広告なし（もともとありません）</li>
+          <li>今後追加される Premium 機能</li>
         </ul>
       </div>
-      <div class="plan">
+      <div class="plan" data-animate data-animate-delay="2">
         <p class="plan-name">Lifetime</p>
         <p class="plan-price">¥9,800<small>/一回のみ</small></p>
-        <p class="muted small">アップデートもずっと込み。</p>
+        <p class="note">アップデートもずっと込み。</p>
         <ul>
           <li>Yearly の全機能</li>
           <li>今後の新機能も含む</li>
@@ -174,29 +249,29 @@ description: YouTube や Instagram の動画をフォルダで整理し、メモ
 
 <!-- FAQ -->
 <section class="faq">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">FAQ</p>
+  <div class="container faq-container">
+    <div class="section-head" data-animate style="text-align:center; max-width:none; margin-left:auto; margin-right:auto;">
+      <p class="eyebrow" style="justify-content:center;">FAQ</p>
       <h2>よくある質問</h2>
     </div>
-    <details>
-      <summary>動画そのものをアプリ内に保存するのですか？</summary>
+    <details data-animate>
+      <summary>動画そのものをアプリ内に保存するのですか？<span class="icon" aria-hidden="true"></span></summary>
       <p class="answer">いいえ。YouTube や Instagram などホスティング元の URL を保存し、再生時にそれらのサービスと直接通信します。動画ファイルを当社サーバーに送ることはありません。</p>
     </details>
-    <details>
-      <summary>広告や行動追跡はありますか？</summary>
+    <details data-animate>
+      <summary>広告や行動追跡はありますか？<span class="icon" aria-hidden="true"></span></summary>
       <p class="answer">ありません。AdMob や Firebase Analytics、行動追跡 SDK は一切使用していません。広告 ID (IDFA) の取得も行いません。</p>
     </details>
-    <details>
-      <summary>AI 要約機能は必ず使う必要がありますか？</summary>
+    <details data-animate>
+      <summary>AI 要約機能は必ず使う必要がありますか？<span class="icon" aria-hidden="true"></span></summary>
       <p class="answer">いいえ。ご自身で取得した Google Gemini API キーを設定した場合のみ動作します。未設定なら通信は発生せず、他の機能には影響しません。</p>
     </details>
-    <details>
-      <summary>課金は解約できますか？</summary>
+    <details data-animate>
+      <summary>課金は解約できますか？<span class="icon" aria-hidden="true"></span></summary>
       <p class="answer">月額・年額サブスクリプションはいつでも iOS の「設定」→「Apple ID」→「サブスクリプション」から解約できます。買い切りプランは解約の概念がありません。</p>
     </details>
-    <details>
-      <summary>複数端末で同期できますか？</summary>
+    <details data-animate>
+      <summary>複数端末で同期できますか？<span class="icon" aria-hidden="true"></span></summary>
       <p class="answer">現在は端末内ローカル保存のみです。iCloud 同期は将来のアップデートで検討中です。</p>
     </details>
   </div>
@@ -205,8 +280,13 @@ description: YouTube や Instagram の動画をフォルダで整理し、メモ
 <!-- CTA -->
 <section class="cta" id="download">
   <div class="container">
-    <h2>あなたの「あとで観る」に、<br />落ち着く場所を。</h2>
-    <p>無料で始められます。必要になったら Premium に。</p>
-    <a href="#" class="btn btn-primary">App Store で入手</a>
+    <h2 data-animate>あなたの「あとで観る」に、<br />落ち着く場所を。</h2>
+    <p data-animate data-animate-delay="1">無料で始められます。必要になったら Premium に。</p>
+    <div data-animate data-animate-delay="2">
+      <a href="#" class="btn btn-primary">
+        App Store で入手
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
   </div>
 </section>
