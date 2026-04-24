@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="{{ '/' | relative_url }}" class="brand">VideoClip</a>
+      <nav class="nav-links">
+        <a href="{{ '/#features' | relative_url }}">Features</a>
+        <a href="{{ '/#philosophy' | relative_url }}">Philosophy</a>
+        <a href="{{ '/support/' | relative_url }}">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="brand">VideoClip</p>
+        <p class="muted small">見たい動画を、忘れない場所へ。</p>
+      </div>
+      <div>
+        <p class="label">Product</p>
+        <a href="{{ '/#features' | relative_url }}">Features</a>
+        <a href="{{ '/#pricing' | relative_url }}">Pricing</a>
+      </div>
+      <div>
+        <p class="label">Legal</p>
+        <a href="https://dragon-jp.github.io/videoclip-privacy-policy/">Privacy</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms (EULA)</a>
+      </div>
+      <div>
+        <p class="label">Contact</p>
+        <a href="mailto:alaofficial.jp@gmail.com">alaofficial.jp@gmail.com</a>
+        <a href="{{ '/support/' | relative_url }}">Support</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p class="muted small">© 2026 VideoClip. Built by an independent developer.</p>
+    </div>
+  </footer>
+</body>
+</html>

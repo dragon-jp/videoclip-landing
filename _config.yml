@@ -1,0 +1,20 @@
+title: VideoClip
+description: 見たい動画を、忘れない場所へ。
+url: https://dragon-jp.github.io
+baseurl: /videoclip-landing
+
+theme: null
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
