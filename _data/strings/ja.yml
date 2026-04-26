@@ -38,7 +38,7 @@ hero:
     - "フォルダとメモで整理して迷子にしない。"
   cta_primary: "リリース通知を受け取る"
   cta_secondary: "特長を見る"
-  meta: "広告なし · 追跡なし · 端末内で完結"
+  meta: "広告なし · 追跡なし · 配信日にメール1通だけ"
 
 marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
 
@@ -61,8 +61,8 @@ stats:
 features_head:
   eyebrow: "Features"
   title:
-    - "必要なものだけ。"
-    - "余計なものは置かない。"
+    - "あとで効くものだけ、"
+    - "ここに置く。"
   sub: "通知も、おすすめも、広告もありません。見返したい動画と、あなたの思考のためだけの場所です。"
 
 features:
