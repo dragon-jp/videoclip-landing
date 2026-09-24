@@ -19,7 +19,7 @@
         {%- for seg in t.hero.sub -%}<span class="seg">{{ seg }}</span>{%- endfor -%}
       </p>
       <div class="hero-cta" data-animate data-animate-delay="3">
-        <a href="#download" class="btn btn-primary">
+        <a href="{{ site.app_store_url }}" class="btn btn-primary">
           {{ t.hero.cta_primary }}
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -167,7 +167,7 @@
     </h2>
     <p data-animate data-animate-delay="1">{{ t.cta.sub }}</p>
     <div data-animate data-animate-delay="2">
-      <a href="mailto:alaofficial.jp@gmail.com?subject=VideoClip%20Launch%20Notify" class="btn btn-primary">
+      <a href="{{ site.app_store_url }}" class="btn btn-primary">
         {{ t.cta.button }}
         <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>

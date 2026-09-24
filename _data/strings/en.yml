@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "Notify me at launch"
+  cta: "Get it on the App Store"
 
 footer:
   tagline_line1: "A quieter home for"
@@ -29,16 +29,16 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · Launching this spring"
+  eyebrow: "iOS App · Now on the App Store"
   title:
     - "Save the video."
     - "Think about it later."
   sub:
     - "Drop YouTube and Instagram clips into"
     - "folders with notes. The opposite of a feed."
-  cta_primary: "Notify me at launch"
+  cta_primary: "Get it on the App Store"
   cta_secondary: "See what's inside"
-  meta: "No ads · No tracking · Stays on your phone"
+  meta: "Free · No ads · No tracking"
 
 marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
 
@@ -175,5 +175,5 @@ cta:
   title:
     - "Give your \"watch later\""
     - "a quieter home."
-  sub: "Leave your email. One message, the day it ships. Never used for anything else."
-  button: "Notify me at launch"
+  sub: "Free to download. Upgrade only when you need more."
+  button: "Get it on the App Store"

@@ -10,7 +10,7 @@ nav:
   features: "Funciones"
   pricing: "Precios"
   support: "Soporte"
-  cta: "Avísame"
+  cta: "Descargar en App Store"
 
 footer:
   tagline_line1: "Un lugar tranquilo"
@@ -29,16 +29,16 @@ footer:
   made: "Hecho con cariño en Japón."
 
 hero:
-  eyebrow: "iOS App · Próximamente"
+  eyebrow: "iOS App · Ya en la App Store"
   title:
     - "Un lugar tranquilo"
     - "para los vídeos que guardas."
   sub:
     - "Organiza los vídeos que te llamaron la atención"
     - "en YouTube o Instagram con carpetas y notas."
-  cta_primary: "Avísame al salir"
+  cta_primary: "Descargar en App Store"
   cta_secondary: "Ver detalles"
-  meta: "Sin anuncios · Sin seguimiento · Todo en el dispositivo"
+  meta: "Gratis · Sin anuncios · Sin seguimiento"
 
 marquee: ["Guarda", "Ordena", "Anota", "Piensa", "Vuelve", "Revísalo"]
 
@@ -175,5 +175,5 @@ cta:
   title:
     - "Dale a tu \"ver más tarde\""
     - "un lugar tranquilo."
-  sub: "Te avisamos por email en cuanto apruebe la revisión."
-  button: "Avísame al salir"
+  sub: "Descarga gratuita. Mejora solo si necesitas más."
+  button: "Descargar en App Store"

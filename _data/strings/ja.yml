@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "リリース通知を受け取る"
+  cta: "App Store で入手"
 
 footer:
   tagline_line1: "保存した動画を、"
@@ -29,16 +29,16 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · 審査中 · 数日以内に配信"
+  eyebrow: "iOS App · App Store で配信中"
   title:
     - "保存した動画を、"
     - "ちゃんと見返せる。"
   sub:
     - "YouTube や Instagram で気になった動画を、"
     - "フォルダとメモで整理して迷子にしない。"
-  cta_primary: "リリース通知を受け取る"
+  cta_primary: "App Store で入手"
   cta_secondary: "特長を見る"
-  meta: "広告なし · 追跡なし · 配信日にメール1通だけ"
+  meta: "無料 · 広告なし · 追跡なし"
 
 marquee: ["Save", "Organize", "Annotate", "Reflect", "Return", "Rewatch"]
 
@@ -195,5 +195,5 @@ cta:
   title:
     - "あなたの「あとで観る」に、"
     - "落ち着く場所を。"
-  sub: "メールは配信日に1通だけ。配信以外には使いません。"
-  button: "リリース通知を受け取る"
+  sub: "無料でダウンロードできます。Premium は必要になってから選べば大丈夫。"
+  button: "App Store で入手"

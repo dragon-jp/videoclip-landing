@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "上架時通知我"
+  cta: "在 App Store 下載"
 
 footer:
   tagline_line1: "把想看的影片,"
@@ -29,16 +29,16 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · 即將上架"
+  eyebrow: "iOS App · 已在 App Store 上架"
   title:
     - "把想看的影片,"
     - "好好收著。"
   sub:
     - "那些滑到存起來、之後卻找不回的短影音,"
     - "分資料夾、加筆記,一句「那支義式麵」就能找到。"
-  cta_primary: "上架時通知我"
+  cta_primary: "在 App Store 下載"
   cta_secondary: "看看特色"
-  meta: "零廣告 · 零追蹤 · 一切留在裝置內"
+  meta: "免費 · 零廣告 · 零追蹤"
 
 marquee: ["收藏", "整理", "寫下", "回想", "再找", "再看"]
 
@@ -177,5 +177,5 @@ cta:
   title:
     - "讓你的「之後再看」"
     - "有個安靜的落腳處。"
-  sub: "通過審核後寄一封信告訴你。只這一次,不會再打擾。"
-  button: "上架時通知我"
+  sub: "免費下載。需要更多時再選擇 Premium。"
+  button: "在 App Store 下載"

@@ -10,7 +10,7 @@ nav:
   features: "Features"
   pricing: "Pricing"
   support: "Support"
-  cta: "출시 알림"
+  cta: "App Store에서 받기"
 
 footer:
   tagline_line1: "다시 보고 싶은 영상이"
@@ -29,16 +29,16 @@ footer:
   made: "Made with care in Japan."
 
 hero:
-  eyebrow: "iOS App · 곧 출시"
+  eyebrow: "iOS App · App Store 출시"
   title:
     - "저장한 영상,"
     - "다시 찾을 수 있게."
   sub:
     - "\"그 이탈리아 파스타 영상\" 한 마디면 충분."
     - "YouTube와 Instagram에서 받은 영상을 폴더와 메모로 정리하세요."
-  cta_primary: "출시 알림 받기"
+  cta_primary: "App Store에서 받기"
   cta_secondary: "자세히 보기"
-  meta: "광고 없음 · 추적 없음 · 기기 내에서 완결"
+  meta: "무료 · 광고 없음 · 추적 없음"
 
 marquee: ["저장", "정리", "기록", "되돌아보기", "다시 찾기", "다시 보기"]
 
@@ -175,5 +175,5 @@ cta:
   title:
     - "당신의 \"나중에 볼 영상\"이"
     - "조용히 머물 곳을."
-  sub: "심사 통과 즉시 이메일로 한 번만 알려드려요. 출시 안내 외엔 사용하지 않습니다."
-  button: "출시 알림 받기"
+  sub: "무료로 내려받을 수 있습니다. 더 필요할 때만 Premium을 선택하세요."
+  button: "App Store에서 받기"
