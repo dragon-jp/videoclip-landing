@@ -6,6 +6,9 @@ baseurl: /videoclip-landing
 # 国コードを入れない形。閲覧者のストアに Apple が振り分ける。
 app_store_url: https://apps.apple.com/app/id6758618610
 
+# App Store の著作権欄・アプリ内の表記と同じ年。ビルド年ではない。
+copyright_year: 2026
+
 theme: null
 markdown: kramdown
 highlighter: rouge
