@@ -83,7 +83,7 @@ features:
     body: "Busca a la vez entre títulos, notas y etiquetas. Las carpetas no estorban."
   - num: "06 — AI"
     title: ["Resúmenes con IA,", "solo si los pides"]
-    body: "Configura tu propia API key de Gemini y genera resúmenes. Sin clave, no hay ninguna conexión."
+    body: "Configura tu propia API key de Gemini para los resúmenes con IA. Sin clave, la app lee la descripción de la propia página guardada; no se envía nada a ningún servicio de IA."
 
 showcase:
   - tag: "Organize"
@@ -165,7 +165,7 @@ faq:
   - q: "¿Hay anuncios o seguimiento?"
     a: "Ninguno. Sin AdMob, sin Firebase Analytics, sin rastreadores. Tampoco leemos tu IDFA."
   - q: "¿Tengo que usar los resúmenes con IA?"
-    a: "No. Solo se activan si pones tu propia API key de Google Gemini. Sin clave, no se hace ninguna conexión."
+    a: "No. Los resúmenes con IA solo se activan si pones tu propia API key de Google Gemini. Sin clave, la app lee la descripción de la propia página guardada; no se envía nada a ningún servicio de IA."
   - q: "¿Se puede cancelar la suscripción?"
     a: "Sí. Mensual y anual se pueden cancelar en cualquier momento en Ajustes → Apple ID → Suscripciones. El plan de por vida no tiene nada que cancelar."
   - q: "¿Se sincroniza entre dispositivos?"

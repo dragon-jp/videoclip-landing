@@ -83,7 +83,7 @@ features:
     body: "記得一個關鍵字,就能跨越資料夾找到它。"
   - num: "06 — AI"
     title: ["必要時再用,", "AI 摘要"]
-    body: "填入自己準備的 Gemini API 金鑰,就能產生摘要。不填,就完全不會通訊。"
+    body: "填入自己準備的 Gemini API 金鑰,就能產生 AI 摘要。不填時,只會從你儲存的頁面讀取簡介,不會送到任何 AI 服務。"
 
 showcase:
   - tag: "Organize"
@@ -167,7 +167,7 @@ faq:
   - q: "有廣告或行為追蹤嗎?"
     a: "沒有。沒有使用 AdMob、Firebase Analytics 或任何追蹤 SDK。也不取廣告 ID (IDFA)。"
   - q: "AI 摘要一定要用嗎?"
-    a: "不用。只有在你填入自己取得的 Google Gemini API 金鑰後才會運作。沒填就完全不會通訊。"
+    a: "不用。AI 摘要只有在你填入自己取得的 Google Gemini API 金鑰後才會運作。沒填時,只會從儲存的頁面本身讀取簡介,不會送到任何 AI 服務。"
   - q: "訂閱可以取消嗎?"
     a: "可以。月費、年費隨時可在 iOS「設定」→「Apple ID」→「訂閱」取消。買斷版沒有取消的概念。"
   - q: "可以多台裝置同步嗎?"

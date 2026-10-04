@@ -83,7 +83,7 @@ features:
     body: "Search across titles, notes, and tags — cutting through folders."
   - num: "06 — AI"
     title: ["Summaries,", "only when you ask"]
-    body: "Bring your own Gemini API key and get on-device summaries. Leave it blank and there's no network at all."
+    body: "Bring your own Gemini API key for AI summaries. Without one, the app reads the saved page's own description — nothing is sent to an AI service."
 
 showcase:
   - tag: "Organize"
@@ -165,7 +165,7 @@ faq:
   - q: "Are there ads or tracking?"
     a: "None. No AdMob, no Firebase Analytics, no behavior-tracking SDKs. We don't read your IDFA either."
   - q: "Do I have to use the AI summaries?"
-    a: "No. They only activate when you paste in your own Google Gemini API key. Without it, there's no network call."
+    a: "No. AI summaries only run when you paste in your own Google Gemini API key. Without one, the app reads the description from the saved page itself; nothing is sent to an AI service."
   - q: "Can I cancel the subscription?"
     a: "Yes. Monthly and yearly plans are cancellable any time via iOS Settings → Apple ID → Subscriptions. The lifetime plan has nothing to cancel."
   - q: "Does it sync across devices?"
