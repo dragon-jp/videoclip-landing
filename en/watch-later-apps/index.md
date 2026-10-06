@@ -30,18 +30,18 @@ If you save videos "for later" and never find them again, you're the audience fo
 
 - **You mostly watch YouTube and want a cleaner queue** → look at a YouTube-specific queue such as Unwatched.
 - **You want to keep up with specific creators** → a channel follower such as Play.
-- **You save from many apps (YouTube, Instagram, links friends send) and lose track of why you saved them** → a link library. That's the gap VideoClip was built for.
+- **You save from many apps (YouTube, Instagram, links friends send) and lose track of where they went** → a link library. That's the gap VideoClip was built for.
 
 ## What VideoClip does
 
 - Save a video or web link from any app's share menu into a folder.
 - Titles and thumbnails are fetched automatically.
-- Add a note to each link, then search your notes later.
+- Keep text notes alongside your links (Markdown supported).
 - Subfolders, private folders, and a trash you can restore from.
 
 **Free:** 3 folders, 20 items per folder, one level of subfolders. **Premium** removes the limits (monthly, yearly, or a one-time lifetime purchase).
 
-What it doesn't do: VideoClip doesn't download videos and doesn't follow channels. It keeps your links, and your reasons for keeping them, in one place.
+What it doesn't do: VideoClip doesn't download videos and doesn't follow channels. It keeps the links you saved in one place, where you can find them again.
 
 [VideoClip on the App Store](https://apps.apple.com/us/app/videoclip/id6758618610)
 
